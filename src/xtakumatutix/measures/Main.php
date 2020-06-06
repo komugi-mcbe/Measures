@@ -17,6 +17,6 @@ Class Main extends PluginBase
     public function Uban($name,$player){
     	$this->UBans->UBan($name ,"Fly系の使用の疑い" ,"FlyCheak");
     	$this->getServer()->broadcastMessage("§aFlyCheakPlugin§fが§c".$name."§fを§eUBan§fしました\n§e理由 §f:§6 Fly系の使用の疑い");
-    	$player->kick("\n§cサーバーとの接続が切断されました \n§6理由 §f: §6Fly系の使用の疑い ", true);
+    	$player->kick("\n§cサーバーとの接続が切断されました \n§6理由 §f: §6Fly系の使用の疑い ", false);
     }
 }
