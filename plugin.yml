@@ -1,6 +1,6 @@
 ---
-name: FlyUban
-main: xtakumatutix\flyuban\Main
+name: Measures
+main: xtakumatutix\measures\Main
 version: 1.6.0
 api: 3.0.0
 ...
